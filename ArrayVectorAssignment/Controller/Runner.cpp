@@ -9,8 +9,13 @@
 #include <iostream>
 #include "Controller.hpp"
 
+
 int main()
 {
     Controller app;
     app.start();
+    
+    app.vectorMethod();
+    app.loopThroughVector();
+   
 }

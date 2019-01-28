@@ -16,6 +16,8 @@ class Controller
 {
 public:
     void start();
+    void vectorMethod();
+    void loopThroughVector();
 };
 
 
