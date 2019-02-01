@@ -31,11 +31,18 @@ void Controller :: loopThroughVector()
 {
     
     vector<string> stringVector;
+     string thislist1 [5] = {};
     for (int i = 1; i <= 5; i++)
-        string a = "";
-    stringVector.push_back("a");
-        //   stringVector.push_back(i); PUSHBACK is the add
+    {     //string a = "";
+        stringVector.push_back("a");
+        thislist1[i] = stringVector[i];
+        
+        
+    }    //   stringVector.push_back(i); PUSHBACK is the add
+    
+    
         
         for (auto i = stringVector.begin(); i != stringVector.end(); ++i )
             cout << *i << endl;
+
 }
