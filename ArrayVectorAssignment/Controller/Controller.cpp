@@ -35,7 +35,7 @@ void Controller :: loopThroughVector()
     for (int i = 1; i <= 5; i++)
     {     //string a = "";
         stringVector.push_back("a");
-        thislist1[i] = stringVector[i];
+   //     thislist1[i] = stringVector[i];
         
         
     }    //   stringVector.push_back(i); PUSHBACK is the add
